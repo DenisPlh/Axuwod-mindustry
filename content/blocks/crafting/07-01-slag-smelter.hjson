@@ -1,0 +1,51 @@
+type: GenericCrafter
+name: Slag smelter
+description: Smelts scrap into slag.
+health: 150
+size: 2
+consumes: {
+ power: 0.05
+ items: [
+  scrap/6
+ ]
+}
+outputLiquid: slag/0.1
+// heatOutput: 2
+drawer: {
+ type: DrawMulti
+ drawers: [
+  {
+   type: DrawRegion
+   suffix: -bottom
+  }
+  {
+   type: DrawLiquidTile
+   drawLiquid: slag
+   padding: 4
+   alpha: 1.00
+  }
+  {
+   type: DrawBubbles
+   fill: false
+   color: DD793B
+   spread: 2
+  }
+  {
+   type: DrawDefault
+  }
+ ]
+}
+category: crafting
+research: {
+ parent: 00-01-core-october
+}
+// rotate: false
+hasLiquids: true
+researchCostMultiplier: 0.4
+itemCapacity: 18
+liquidCapacity: 32
+research: 05-01-beam
+requirements: [
+ lead/90
+ scrap/75
+]
