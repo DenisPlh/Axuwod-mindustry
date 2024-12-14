@@ -1,0 +1,13 @@
+type: wall
+name: Large lead wall
+description: Protects buildings from enemies.
+health: 1000
+size: 2
+category: defense
+research: {
+ parent: 06-01-lead-wall
+}
+researchCostMultiplier: 0.4
+requirements: [
+ lead/32
+]
