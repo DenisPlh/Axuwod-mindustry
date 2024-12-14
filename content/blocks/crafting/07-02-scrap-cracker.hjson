@@ -1,0 +1,25 @@
+type: GenericCrafter
+name: Scrap cracker
+description: Crashes scrap by using a compressed spring.
+health: 155
+size: 1
+consumes: {
+ power: 0.04
+ items: [
+  scrap/1
+ ]
+}
+craftTime: 25
+outputItem: sand/1
+craftEffect: blastExplosion
+category: crafting
+research: {
+ parent: 07-01-slag-smelter
+}
+researchCostMultiplier: 0.4
+itemCapacity: 16
+// research: item-01-iron
+requirements: [
+ lead/105
+ // iron/60
+]
