@@ -1,0 +1,13 @@
+name: Recovery
+description: Your first travel to this planet. Good luck.
+sector: 10
+captureWave: 10
+difficulty: 1
+alwaysUnlocked: true
+addStartingItems: false
+useAI: false
+showSectorLandInfo: false
+planet: Axuwod
+research: {
+ parent: core-october
+}
