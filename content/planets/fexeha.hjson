@@ -1,0 +1,23 @@
+generator: SerpuloPlanetGenerator
+mesh: {
+ type: NoiseMesh
+ planet: axuwod
+ seed: 247175
+ color1: 43AD60
+ color2: 378D4F
+ radius: 0.30
+ divisions: 4
+ octaves: 5
+ persistence: 1
+ scl: 0.303
+ //mag: 0.95
+ //persistence: 0.4
+}
+localizedName: Fexeha
+parent: Axuwod
+orbitRadius: 2
+radius: 0.30
+hasAtmosphere: false
+updateLighting: false
+drawOrbit: true
+accessible: false
