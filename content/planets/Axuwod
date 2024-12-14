@@ -1,0 +1,54 @@
+generator: SerpuloPlanetGenerator
+mesh: [
+ {
+  //
+  type: NoiseMesh
+  planet: Axuwod
+  seed: 618847
+  color1: EF4545
+  color2: C71529
+  divisions: 5
+  octaves: 5
+  persistence: 1
+  //scl: 1
+  //mag: 0.95
+  //persistence: 1.2
+ }
+]
+localizedName: Axuwod
+parent: sun
+iconColor: EF4545
+orbitRadius: 30
+hasAtmosphere: true
+updateLighting: false
+atmosphereRadIn: 0
+atmosphereRadOut: 0.85
+atmosphereColor: EA4040
+drawOrbit: true
+accessible: true
+alwaysUnlocked: true
+defaultCore: 00-01-core-october
+sectorSeed: 5
+startSector: 10
+sectorSize: 1
+clearSectorOnLose: true
+allowSectorInvasion: false
+allowLaunchToNumbered: false
+hiddenItems: [
+ copper
+ plastanium
+ phase-fabric
+ surge-alloy
+ spore-pod
+ blast-compound
+ pyratite
+ beryllium
+ tungsten
+ oxide
+ carbide
+ graphite
+ coal
+ titanium
+ thorium
+ silicon
+]
