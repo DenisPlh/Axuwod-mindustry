@@ -11,7 +11,7 @@ size: 3
 alwaysUnlocked: true
 unitType: mega
 health: 1500
-itemCapacity: 3000
+itemCapacity: 300
 unitCapModifier: 10
 category: effect
 research: {
