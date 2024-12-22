@@ -32,8 +32,3 @@ weapons: [
   }
  }
 ]
-// research: {
- // parent: fly-assembler
- // requirements: [
- // ]
-// }
