@@ -1,0 +1,16 @@
+type: PowerNode
+name: Beam
+description: 
+health: 35
+size: 1
+laserRange: 5
+maxNodes: 5
+category: power
+research: {
+ parent: 05-03-power-turbine
+}
+researchCostMultiplier: 0.2
+requirements: [
+ lead/5
+ scrap/5
+]

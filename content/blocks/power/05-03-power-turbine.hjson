@@ -1,0 +1,47 @@
+type: ThermalGenerator
+name: Turbine
+description: Generates energy by releasing steam from geothermal sources.
+details: The scheme of this turbine is suspiciously similar to the Erekir's one.
+health: 100
+size: 3
+hasItems: false
+hasLiquids: true
+outputLiquid: water/0.001
+attribute: steam
+displayEfficiencyScale: 0.11111111111
+displayEfficiency: false
+minEfficiency: 3
+powerProduction: 0.15
+generateEffect: turbinegenerate
+effectChance: 0.05
+category: power
+research: {
+ parent: 00-01-core-october
+}
+drawer: {
+ type: DrawMulti
+ drawers: [
+  {
+   type: DrawRegion
+   suffix: -rotator
+   spinSprite: true
+   rotateSpeed: 1.5
+  }
+  {
+   type: DrawFrames
+   frames: 68
+   sine: true
+   interval: 5
+  }
+  {
+   type: DrawDefault
+  }
+ ]
+}
+researchCostMultiplier: 0.1
+ambientSound: hum
+ambientSoundVolume: 0.05
+requirements: [
+ lead/60
+ scrap/60
+]
