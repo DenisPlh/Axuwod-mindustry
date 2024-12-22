@@ -1,2 +1,2 @@
 # Axuwod-mindustry
-mindustry planet mod
+Mindustry planet mod
