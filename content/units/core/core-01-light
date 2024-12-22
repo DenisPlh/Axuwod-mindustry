@@ -1,0 +1,63 @@
+type: flying
+name: Light
+description: 
+health: 225
+armor: 1
+hitSize: 9
+flying: false
+itemCapacity: 25
+speed: 2
+accel: 0.5
+drag: 0.5
+rotateSpeed: 4
+mineFloor: true
+mineSpeed: 2.5
+mineTier: 1
+buildSpeed: 1
+alwaysUnlocked: true
+outlineColor: 21222A
+abilities: [
+ {
+  type: ShieldRegenFieldAbility
+  reload: 200
+  range: 75
+  amount: 3
+  max: 15
+ }
+]
+weapons: [
+ {
+  x: 1.0
+  y: 1.25
+  mirror: true
+  alternate: true
+  rotate: false
+  top: true
+  reload: 40
+  recoil: 0.75
+  bullet: {
+   type: BasicBulletType
+   damage: 8
+   lifetime: 25
+   speed: 1
+   width: 3
+   height: 3
+   status: shocked
+   fragVelocityMin: 0.8
+   fragLifeMin: 0.8
+   fragRandomSpread: 0
+   fragAngle: 90
+   fragBullets: 2
+   fragBullet: {
+    type: LightningBulletType
+    damage: 5
+    lightningLength: 5
+    pierce: false
+    buildingDamageMultiplier: 0.25
+    pierceBuilding: false
+    lightningColor: 4BBDFF
+    status: shocked
+   }
+  }
+ }
+]
