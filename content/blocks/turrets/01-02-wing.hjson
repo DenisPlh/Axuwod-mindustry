@@ -1,0 +1,52 @@
+type: ItemTurret
+name: Wing
+description: "Fires fast scrap bullets on flying enemyes."
+health: 250
+size: 2
+category: turret
+shootSound: artillery
+coolant: {
+ type: ConsumeCoolant
+ allowLiquid: true
+ amount: 0.05
+}
+outlineColor: 21222A
+targetAir: true
+targetGround: false
+reload: 100
+range: 175
+inaccuracy: 0
+shoot: {
+ shots: 2
+ shotDelay: 10.00
+}
+ammoTypes: {
+ scrap: {
+  type: basicBulletType
+  width: 5
+  height: 8
+  speed: 2
+  lifetime: 85
+  splashDamage: 25
+  splashDamageRadius: 8
+ }
+}
+researchCostMultiplier: 0.2
+requirements: [
+ lead/110
+ scrap/45
+]
+drawer: {
+ type: DrawTurret
+ basePrefix: easy-
+ parts: [
+  {
+   type: RegionPart
+   suffix: -barrel
+   mirror: false
+   under: false
+   progress: recoil
+   moveY: -1.5
+  }
+ ]
+}
