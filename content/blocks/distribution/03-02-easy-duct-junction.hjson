@@ -1,0 +1,11 @@
+type: Junction
+name: Duct junction
+description: Allows for crossing two ducts.
+health: 65
+speed: 8
+category: distribution
+research: 01-easy-duct
+researchCostMultiplier: 0.2
+requirements: [
+ lead/2
+]

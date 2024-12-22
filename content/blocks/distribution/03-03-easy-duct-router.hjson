@@ -1,0 +1,12 @@
+type: Router
+name: Duct router
+description: Splits items into 3 different paths.
+details: Not recommend to place it close to factories.
+health: 60
+size: 1
+category: distribution
+research: 01-easy-duct
+researchCostMultiplier: 0.2
+requirements: [
+ lead/10
+]

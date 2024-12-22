@@ -1,0 +1,14 @@
+type: DuctBridge
+name: Duct bridge
+description: Moves items over buildings and landscape.
+health: 70
+size: 1
+category: distribution
+research: 02-easy-duct-junction
+range: 5
+speed: 8
+researchCostMultiplier: 0.2
+requirements: [
+ lead/5
+ scrap/2
+]

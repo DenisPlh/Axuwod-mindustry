@@ -1,0 +1,10 @@
+type: Sorter
+name: Duct sorter
+description: Moves the selected item forward and the rest to the sides.
+category: distribution
+research: 03-03-easy-duct-router
+researchCostMultiplier: 0.2
+requirements: [
+ lead/3
+ scrap/3
+]
