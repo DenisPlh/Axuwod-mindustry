@@ -1,0 +1,39 @@
+type: flying
+name: Air
+description: Shoots basic bullets at enemies.
+health: 155
+armor: 1
+hitSize: 9
+flying: true
+itemCapacity: 10
+speed: 3
+accel: 0.3
+drag: 0.075
+rotateSpeed: 5
+outlineColor: 21222A
+weapons: [
+ {
+  name: air-gun
+  x: 2.75
+  y: 2.75		
+  mirror: true
+  alternate: true
+  rotate: false
+  top: false
+  reload: 45
+  recoil: 1.5
+  bullet: {
+   type: basicBulletType
+   damage: 8
+   lifetime: 100
+   speed: 1
+   width: 4
+   height: 6
+  }
+ }
+]
+// research: {
+ // parent: fly-assembler
+ // requirements: [
+ // ]
+// }
