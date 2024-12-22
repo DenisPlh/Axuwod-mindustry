@@ -1,0 +1,17 @@
+type: Duct
+name: Easy duct
+description: Transports items forward.
+health: 60
+speed: 8
+category: distribution
+alwaysUnlocked: false
+research: core-reed
+researchCostMultiplier: 0.2
+research: {
+ parent: 00-01-core-october
+}
+junctionReplacement: 03-02-easy-duct-junction
+bridgeReplacement: 03-04-easy-duct-bridge
+requirements: [
+ lead/1
+]
