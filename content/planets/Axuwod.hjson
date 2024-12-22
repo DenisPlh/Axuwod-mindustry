@@ -3,7 +3,7 @@ mesh: [
  {
   //
   type: NoiseMesh
-  planet: Axuwod
+  planet: axuwod
   seed: 618847
   color1: EF4545
   color2: C71529
@@ -14,6 +14,20 @@ mesh: [
   //mag: 0.95
   //persistence: 1.2
  }
+ //{
+  //deadstone
+  //type: NoiseMesh
+  //planet: axuwod
+  //seed: 723233
+  //color1: 895638
+  //color2: 582B10
+  //divisions: 5
+  //octaves: 5
+  //persistence: 0.8
+  //scl: 0.95
+  //mag: 0.95
+  //persistence: 1.2
+ //}
 ]
 localizedName: Axuwod
 parent: sun
