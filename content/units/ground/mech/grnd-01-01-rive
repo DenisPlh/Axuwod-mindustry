@@ -1,0 +1,34 @@
+type: mech
+name: Rive
+description: Shoots basic bullets at enemies.
+health: 175
+armor: 1
+hitSize: 9
+flying: false
+itemCapacity: 10
+speed: 0.6
+accel: 0.3
+drag: 0.3
+rotateSpeed: 1
+outlineColor: 21222A
+weapons: [
+ {
+  name: rive-gun
+  x: 4.0
+  y: 1.25
+  mirror: true
+  alternate: true
+  rotate: false
+  top: false
+  reload: 55
+  recoil: 1.5
+  bullet: {
+   type: basicBulletType
+   damage: 8
+   lifetime: 100
+   speed: 1
+   width: 4
+   height: 6
+  }
+ }
+]
