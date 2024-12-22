@@ -1,0 +1,23 @@
+type: BurstDrill
+name: Pounding drill
+description: Basic drill.
+health: 150
+size: 2
+consumes: {
+ power: 0.07
+}
+research: {
+ parent: 00-01-core-october
+}
+category: production
+hasLiquids: true
+hardnessDrillMultiplier: 100
+drillTime: 250
+hasPower: false
+tier: 1
+shake: 0.25
+researchCostMultiplier: 0.2
+itemCapacity: 20
+requirements: [
+ lead/15
+]
