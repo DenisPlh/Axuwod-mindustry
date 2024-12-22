@@ -1,0 +1,44 @@
+type: ItemTurret
+name: "Patron"
+description: "Fires peases of lead on ground enemyes."
+health: 125
+size: 1
+category: turret
+research: {
+ parent: 00-01-core-october
+}
+shootSound: artillery
+coolant: {
+ type: ConsumeCoolant
+ allowLiquid: true
+ amount: 0.05
+}
+outlineColor: 21222A
+targetAir: false
+targetGround: true
+reload: 75
+range: 120
+inaccuracy: 10
+shoot: {
+ shots: 4
+ shotDelay: 0.75
+}
+ammoTypes: {
+ lead: {
+  type: ArtilleryBulletType
+  width: 8
+  height: 10
+  speed: 1.5
+  lifetime: 80
+  splashDamage: 30
+  splashDamageRadius: 16
+ }
+}
+researchCostMultiplier: 0.1
+requirements: [
+ lead/55
+]
+drawer: {
+ type: DrawTurret
+ basePrefix: easy-
+}
