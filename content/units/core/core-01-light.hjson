@@ -11,7 +11,7 @@ accel: 0.5
 drag: 0.5
 rotateSpeed: 4
 mineFloor: true
-mineSpeed: 2.5
+mineSpeed: 5.0
 mineTier: 1
 buildSpeed: 1
 alwaysUnlocked: true
@@ -27,8 +27,8 @@ abilities: [
 ]
 weapons: [
  {
-  x: 1.0
-  y: 1.25
+  x: 2.25
+  y: 2.0
   mirror: true
   alternate: true
   rotate: false
@@ -38,7 +38,7 @@ weapons: [
   bullet: {
    type: BasicBulletType
    damage: 8
-   lifetime: 25
+   lifetime: 125
    speed: 1
    width: 3
    height: 3
